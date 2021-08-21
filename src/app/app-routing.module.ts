@@ -4,6 +4,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { InfoComponent } from './components/info/info.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
 
 const routes: Routes = [
   // RUTA RAIZ
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'info' , component: InfoComponent },
   { path: 'projects' , component: ProjectsComponent },
   { path: 'about' , component: AboutComponent },
+  { path: 'servicios/:slug' , component: ServiciosComponent },
 
   // RUTA DE FALLO
   // { path: '**' , component: 404Component },
