@@ -1,0 +1,18 @@
+.info{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info li{
+    cursor: pointer;
+    margin: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.info li:hover{
+    background-color: grey;
+    color: black;
+}
